@@ -25,7 +25,7 @@ const getters = {
 
 const actions = {
   fetchWorkflow({ commit }: { commit: Commit }) {
-    // Here api should be fetched to get workflow. Setting hardcoded value instead
+    // I should fetch data here via api. I'm setting mocked data instead
     commit("updateWorkflow", workflowMock);
   },
   updateNodeStartingPoint(
@@ -39,8 +39,8 @@ const actions = {
     { commit, state }: { commit: Commit; state: StateType },
     workflowBlock: WorkflowBlock
   ) {
-    // Logic for adding id and position should be on the backend
-    // Logic is mocking backend. As long it's mock, some constants are hardcoded here
+    // Logic for adding id and position should be on the backend.
+    // Logic is mocking backend. As long it's mock, some constants are hardcoded here.
     let nodeId = 1;
     let startingPointY = 50;
     let startingPointX = 50;

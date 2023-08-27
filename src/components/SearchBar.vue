@@ -17,6 +17,7 @@ const emit = defineEmits<{
 const searchQuery: Ref<string> = ref("");
 
 const addBlock = (block: WorkflowBlock) => {
+  searchQuery.value = "";
   emit("add-block", block);
 };
 
