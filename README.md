@@ -1,3 +1,5 @@
+https://github.com/VitalyGryaznov/challenge-knime/assets/19794086/3e38e67e-2e4c-4dbd-b055-dd2860369a3a
+
 ## **What is implemented**
 
 - can add a block using search bar
