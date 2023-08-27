@@ -23,7 +23,6 @@ const addBlock = (block: WorkflowBlock) => {
 const searchNodes = computed(() => {
   if (searchQuery.value) {
     const regExpQuery = new RegExp(searchQuery.value, "i");
-    console.log(props.flowBlockList);
     return props.flowBlockList.filter(
       (node) => regExpQuery.test(node.name) || regExpQuery.test(node.name)
     );
@@ -34,16 +33,18 @@ const searchNodes = computed(() => {
 
 <template>
   <div class="search-bar">
-    <div class="search-bar__wrapper">
+    <div class="search-bar__wrapper" test-id="search-bar--wrapper">
       <input
         class="search-bar__input"
+        test-id="search-bar--input"
         v-model="searchQuery"
         type="text"
         placeholder="Add new node..."
       />
-      <ul class="search-bar__items-list">
+      <ul class="search-bar__items-list" test-id="search-bar--items-list">
         <li
           class="search-bar__list_item"
+          test-id="search-bar--list-item"
           v-for="node in searchNodes"
           :key="node.name"
           :value="node.name"

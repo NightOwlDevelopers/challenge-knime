@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.1",
   "scripts": {
-    "dev": "concurrently \"node server.mjs\" \"vite\"",
+    "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "concurrently \"node server.mjs\" \"vite preview\"",
     "test:update-snapshots": "vitest -u",

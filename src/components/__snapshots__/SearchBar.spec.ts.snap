@@ -1,0 +1,81 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SearchBar.vue > renders correctly 1`] = `
+<div
+  class="search-bar"
+  data-v-6ab8b910=""
+>
+  <div
+    class="search-bar__wrapper"
+    data-v-6ab8b910=""
+    test-id="search-bar--wrapper"
+  >
+    <input
+      class="search-bar__input"
+      data-v-6ab8b910=""
+      placeholder="Add new node..."
+      test-id="search-bar--input"
+      type="text"
+    />
+    <ul
+      class="search-bar__items-list"
+      data-v-6ab8b910=""
+      test-id="search-bar--items-list"
+    >
+      
+      <li
+        class="search-bar__list_item"
+        data-v-6ab8b910=""
+        test-id="search-bar--list-item"
+        value="0"
+      >
+        <div
+          data-v-6ab8b910=""
+        >
+          Data generator
+        </div>
+        <img
+          alt=""
+          data-v-6ab8b910=""
+          src="assets/data_generator.jpg"
+        />
+      </li>
+      <li
+        class="search-bar__list_item"
+        data-v-6ab8b910=""
+        test-id="search-bar--list-item"
+        value="0"
+      >
+        <div
+          data-v-6ab8b910=""
+        >
+          CASE Switch Data (Start)
+        </div>
+        <img
+          alt=""
+          data-v-6ab8b910=""
+          src="assets/case_switch.jpg"
+        />
+      </li>
+      <li
+        class="search-bar__list_item"
+        data-v-6ab8b910=""
+        test-id="search-bar--list-item"
+        value="0"
+      >
+        <div
+          data-v-6ab8b910=""
+        >
+          Cluster Assigner
+        </div>
+        <img
+          alt=""
+          data-v-6ab8b910=""
+          src="assets/cluster_assigner.jpg"
+        />
+      </li>
+      
+    </ul>
+  </div>
+</div>
+`;
